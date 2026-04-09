@@ -140,8 +140,8 @@ export default function Index() {
       <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-16">
         <div className="absolute inset-0">
           <img
-            src="https://cdn.poehali.dev/projects/0f79d3c1-2389-4030-ac4f-5e52670b7840/files/60ff7020-6c0b-4ccb-8467-ac5e0eeb4f00.jpg"
-            alt="Автомобиль"
+            src="https://cdn.poehali.dev/projects/0f79d3c1-2389-4030-ac4f-5e52670b7840/files/fa3d6811-27e1-4fa4-8450-e1d908d4a323.jpg"
+            alt="Volkswagen Polo"
             className="w-full h-full object-cover opacity-40 animate-zoom-in"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-azina-dark via-azina-dark/70 to-transparent" />
