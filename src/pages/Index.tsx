@@ -46,12 +46,7 @@ const reviews = [
   },
 ];
 
-const stats = [
-  { value: "12+", label: "лет на рынке" },
-  { value: "3 200", label: "выпускников" },
-  { value: "94%", label: "сдают с 1-й попытки" },
-  { value: "4.9", label: "средний рейтинг" },
-];
+
 
 function StarRating({ rating }: { rating: number }) {
   return (
@@ -185,8 +180,7 @@ export default function Index() {
             </h1>
 
             <p className="font-rubik text-white/60 text-lg leading-relaxed mb-10 opacity-0 animate-fade-in-delay2">
-              Профессиональные инструкторы, современные автомобили и 94%
-              выпускников, сдавших экзамен с первой попытки.
+              Профессиональные инструкторы, современные автомобили и индивидуальный подход к каждому ученику.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-delay2">
@@ -206,16 +200,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 bg-azina-gray/80 backdrop-blur-sm border-t border-white/10">
-          <div className="max-w-6xl mx-auto px-6 py-5 grid grid-cols-2 md:grid-cols-4 gap-6">
-            {stats.map((stat, i) => (
-              <div key={i} className="text-center">
-                <div className="font-oswald text-2xl md:text-3xl font-bold text-azina-red">{stat.value}</div>
-                <div className="font-rubik text-xs text-white/50 mt-1 uppercase tracking-wider">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
+
       </section>
 
       {/* ABOUT */}
