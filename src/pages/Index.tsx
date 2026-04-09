@@ -298,27 +298,7 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {reviews.map((review, i) => (
-              <div key={i} className="bg-azina-gray border border-white/10 p-6 hover:border-azina-red/40 transition-colors">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-10 h-10 bg-azina-red font-oswald font-bold text-lg flex items-center justify-center flex-shrink-0">
-                    {review.avatar}
-                  </div>
-                  <div>
-                    <div className="font-oswald font-bold tracking-wide">{review.name}</div>
-                    <div className="font-rubik text-xs text-white/40">{review.date}</div>
-                  </div>
-                  <div className="ml-auto">
-                    <StarRating rating={review.rating} />
-                  </div>
-                </div>
-                <p className="font-rubik text-sm text-white/60 leading-relaxed">"{review.text}"</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-16 bg-azina-gray border border-white/10 p-8 md:p-12 text-center">
+          <div className="mt-0 bg-azina-gray border border-white/10 p-8 md:p-12 text-center">
             <div className="font-oswald text-xs tracking-widest uppercase text-azina-red mb-4">Присоединяйтесь</div>
             <h3 className="font-oswald text-3xl md:text-4xl font-bold mb-4">
               СТАНЬТЕ СЛЕДУЮЩИМ
